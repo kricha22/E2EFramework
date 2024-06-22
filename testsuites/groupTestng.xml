@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="All Test Suite">
+    <groups>
+        <run>
+            <include name="LoginError"/>
+        </run>
+    </groups>
+
+    <test thread-count="4" name="Place order Test">
+        <classes>
+            <class name="org.example.tests.PlaceOrderTest"/>
+        </classes>
+    </test>
+    <test thread-count="4" name="Error validation Test">
+        <classes>
+            <class name="org.example.tests.ErrorValidationsTest"/>
+        </classes>
+    </test>
+</suite>

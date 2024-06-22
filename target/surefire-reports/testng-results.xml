@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-22T15:22:43 IST" name="All Test Suite" finished-at="2024-06-22T15:23:02 IST" duration-ms="18967">
+    <groups>
+      <group name="LoginError">
+        <method signature="ErrorValidationsTest.loginErrorValidations()[pri:0, instance:org.example.tests.ErrorValidationsTest@31ea9581]" name="loginErrorValidations" class="org.example.tests.ErrorValidationsTest"/>
+      </group> <!-- LoginError -->
+    </groups>
+    <test started-at="2024-06-22T15:22:43 IST" name="Error validation Test" finished-at="2024-06-22T15:23:02 IST" duration-ms="18967">
+      <class name="org.example.tests.ErrorValidationsTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.tests.ErrorValidationsTest@31ea9581]" started-at="2024-06-22T15:22:43 IST" name="launchApplication" finished-at="2024-06-22T15:22:53 IST" duration-ms="9382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginErrorValidations()[pri:0, instance:org.example.tests.ErrorValidationsTest@31ea9581]" started-at="2024-06-22T15:22:53 IST" name="loginErrorValidations" finished-at="2024-06-22T15:22:53 IST" duration-ms="822" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginErrorValidations -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.example.tests.ErrorValidationsTest@31ea9581]" started-at="2024-06-22T15:22:53 IST" name="closeDriver" finished-at="2024-06-22T15:22:54 IST" duration-ms="281" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:org.example.tests.ErrorValidationsTest@31ea9581]" started-at="2024-06-22T15:22:54 IST" name="launchApplication" finished-at="2024-06-22T15:23:00 IST" duration-ms="6543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="productErrorValidations()[pri:0, instance:org.example.tests.ErrorValidationsTest@31ea9581]" started-at="2024-06-22T15:23:00 IST" name="productErrorValidations" finished-at="2024-06-22T15:23:02 IST" duration-ms="1606" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productErrorValidations -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:org.example.tests.ErrorValidationsTest@31ea9581]" started-at="2024-06-22T15:23:02 IST" name="closeDriver" finished-at="2024-06-22T15:23:02 IST" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- org.example.tests.ErrorValidationsTest -->
+    </test> <!-- Error validation Test -->
+  </suite> <!-- All Test Suite -->
+</testng-results>
